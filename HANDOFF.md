@@ -8,7 +8,7 @@
 - Task/result: Correct the historical handoff after verifying that [PR #2](https://github.com/ldz0207/gpt/pull/2) was merged on 2026-10-13 at 11:10:01 UTC. Its merge commit is the base above and already contains the 14-slide presentation.
 - Validation: Read GitHub PR state (`merged=true`, `state=closed`) and matched `merge_commit_sha` to main history. No presentation regeneration or new visual validation.
 - Commit: this maintenance commit; obtain its exact hash with `git rev-parse HEAD` or the enclosing PR.
-- Next action: Review this local maintenance commit and the PR draft. Pushing and opening a PR remain pending explicit approval; do not reopen or merge PR #2 again. The slides remain available for a user-directed presentation.
+- Next action: Review this maintenance PR. PR #2 is already merged and requires no further merge action; present the existing slides only when requested.
 
 ## Historical presentation handoff — already merged
 
